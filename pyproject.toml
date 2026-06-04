@@ -1,0 +1,15 @@
+[build-system]
+requires = ["setuptools>=61.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "Fuzzylookup"
+version = "0.0.1"
+description = "A package for Fuzzy Lookup"
+readme = "README.md"
+requires-python = ">=3.7"
+# إذا كان لديك مكتبات خارجية في ملف requirements.txt
+# ضعها هنا مثال: dependencies = ["pandas", "numpy"] 
+
+[project.urls]
+Homepage = "https://github.com/Moda141/Fuzzylookup"
